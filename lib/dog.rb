@@ -16,9 +16,12 @@ def self.clear_all
   @@all.clear
 end 
   
-    def self.print_all
-    @@all.each do |dog|
-      puts dog.name
-    end
+ def self.print_all
+    @@all.each {|k9| puts k9.name} 
   end
+
+  def save
+    @@all<< self
+  end
+
 end
