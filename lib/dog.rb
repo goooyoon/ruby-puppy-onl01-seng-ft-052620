@@ -6,7 +6,7 @@ class Dog
   end
   
   def self.all
-    return @@all
+    @@all << name
   end
   
   def self.clear_all
