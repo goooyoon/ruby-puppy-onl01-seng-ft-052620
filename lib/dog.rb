@@ -17,7 +17,7 @@ def self.clear_all
 end 
   
  def self.print_all
-    @@all.each {|k9| puts k9.name} 
+    @@all.each {|a| puts a.name} 
   end
 
   def save
