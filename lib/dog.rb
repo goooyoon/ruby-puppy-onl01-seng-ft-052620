@@ -17,8 +17,10 @@ def self.clear_all
 end 
   
  def self.print_all
-    @@all.each {|a| puts a.name} 
+    @@all.each do |a| 
+      puts a.name 
   end
+end
 
   def save
     @@all<< self
